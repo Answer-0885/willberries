@@ -5,7 +5,7 @@ const search = () => {
   const serchBtn = document.querySelector('.search-block > button');
 
 
-  serchBtn.addEventListener('click', (event) => {
+  serchBtn.addEventListener('click', () => {
     console.log(input.value);
   });
 };
